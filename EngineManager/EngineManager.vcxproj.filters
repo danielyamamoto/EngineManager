@@ -13,6 +13,24 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Archivos de código fuente\ManagersCPP">
+      <UniqueIdentifier>{275aafdd-0ded-4641-9baa-f2d4568a93cf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de encabezado\ManagersH">
+      <UniqueIdentifier>{8cccf16d-0d58-4f83-8d70-fb1c58e53788}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de código fuente\SingletonCPP">
+      <UniqueIdentifier>{3980f0d3-191f-4430-99ba-423f1b9bf41d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de encabezado\SingletonH">
+      <UniqueIdentifier>{dbde096a-ca6d-4e1d-bfb1-10496bddfcf3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de código fuente\Main&amp;MotorCPP">
+      <UniqueIdentifier>{a655d6a2-d549-4833-ab13-9f17755e4390}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de encabezado\Main&amp;MotorH">
+      <UniqueIdentifier>{a2e00577-c4b9-4e75-9e9c-13076c6577da}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <Text Include="ReadMe.txt" />
@@ -24,61 +42,91 @@
     <ClInclude Include="targetver.h">
       <Filter>Archivos de encabezado</Filter>
     </ClInclude>
-    <ClInclude Include="RenderManager.h">
-      <Filter>Archivos de encabezado</Filter>
-    </ClInclude>
-    <ClInclude Include="EngineManager.h">
-      <Filter>Archivos de encabezado</Filter>
-    </ClInclude>
-    <ClInclude Include="PhysicsManager.h">
-      <Filter>Archivos de encabezado</Filter>
-    </ClInclude>
     <ClInclude Include="AnimationManager.h">
-      <Filter>Archivos de encabezado</Filter>
-    </ClInclude>
-    <ClInclude Include="TextureManager.h">
-      <Filter>Archivos de encabezado</Filter>
-    </ClInclude>
-    <ClInclude Include="VideoManager.h">
-      <Filter>Archivos de encabezado</Filter>
-    </ClInclude>
-    <ClInclude Include="MemoryManager.h">
-      <Filter>Archivos de encabezado</Filter>
+      <Filter>Archivos de encabezado\ManagersH</Filter>
     </ClInclude>
     <ClInclude Include="FileSystemManager.h">
-      <Filter>Archivos de encabezado</Filter>
+      <Filter>Archivos de encabezado\ManagersH</Filter>
+    </ClInclude>
+    <ClInclude Include="MemoryManager.h">
+      <Filter>Archivos de encabezado\ManagersH</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysicsManager.h">
+      <Filter>Archivos de encabezado\ManagersH</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderManager.h">
+      <Filter>Archivos de encabezado\ManagersH</Filter>
+    </ClInclude>
+    <ClInclude Include="TextureManager.h">
+      <Filter>Archivos de encabezado\ManagersH</Filter>
+    </ClInclude>
+    <ClInclude Include="VideoManager.h">
+      <Filter>Archivos de encabezado\ManagersH</Filter>
+    </ClInclude>
+    <ClInclude Include="Filesystem.h">
+      <Filter>Archivos de encabezado\SingletonH</Filter>
+    </ClInclude>
+    <ClInclude Include="PS3.h">
+      <Filter>Archivos de encabezado\SingletonH</Filter>
+    </ClInclude>
+    <ClInclude Include="PS4.h">
+      <Filter>Archivos de encabezado\SingletonH</Filter>
+    </ClInclude>
+    <ClInclude Include="XONE.h">
+      <Filter>Archivos de encabezado\SingletonH</Filter>
+    </ClInclude>
+    <ClInclude Include="EngineManager.h">
+      <Filter>Archivos de encabezado\Main&amp;MotorH</Filter>
+    </ClInclude>
+    <ClInclude Include="Application.h">
+      <Filter>Archivos de encabezado\Main&amp;MotorH</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
       <Filter>Archivos de código fuente</Filter>
     </ClCompile>
-    <ClCompile Include="RenderManager.cpp">
-      <Filter>Archivos de código fuente</Filter>
-    </ClCompile>
-    <ClCompile Include="Main.cpp">
-      <Filter>Archivos de código fuente</Filter>
-    </ClCompile>
-    <ClCompile Include="EngineManager.cpp">
-      <Filter>Archivos de código fuente</Filter>
-    </ClCompile>
-    <ClCompile Include="PhysicsManager.cpp">
-      <Filter>Archivos de código fuente</Filter>
-    </ClCompile>
     <ClCompile Include="AnimationManager.cpp">
-      <Filter>Archivos de código fuente</Filter>
-    </ClCompile>
-    <ClCompile Include="TextureManager.cpp">
-      <Filter>Archivos de código fuente</Filter>
-    </ClCompile>
-    <ClCompile Include="VideoManager.cpp">
-      <Filter>Archivos de código fuente</Filter>
-    </ClCompile>
-    <ClCompile Include="MemoryManager.cpp">
-      <Filter>Archivos de código fuente</Filter>
+      <Filter>Archivos de código fuente\ManagersCPP</Filter>
     </ClCompile>
     <ClCompile Include="FileSystemManager.cpp">
-      <Filter>Archivos de código fuente</Filter>
+      <Filter>Archivos de código fuente\ManagersCPP</Filter>
+    </ClCompile>
+    <ClCompile Include="MemoryManager.cpp">
+      <Filter>Archivos de código fuente\ManagersCPP</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysicsManager.cpp">
+      <Filter>Archivos de código fuente\ManagersCPP</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderManager.cpp">
+      <Filter>Archivos de código fuente\ManagersCPP</Filter>
+    </ClCompile>
+    <ClCompile Include="TextureManager.cpp">
+      <Filter>Archivos de código fuente\ManagersCPP</Filter>
+    </ClCompile>
+    <ClCompile Include="VideoManager.cpp">
+      <Filter>Archivos de código fuente\ManagersCPP</Filter>
+    </ClCompile>
+    <ClCompile Include="PS4.cpp">
+      <Filter>Archivos de código fuente\SingletonCPP</Filter>
+    </ClCompile>
+    <ClCompile Include="PS3.cpp">
+      <Filter>Archivos de código fuente\SingletonCPP</Filter>
+    </ClCompile>
+    <ClCompile Include="XONE.cpp">
+      <Filter>Archivos de código fuente\SingletonCPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Filesystem.cpp">
+      <Filter>Archivos de código fuente\SingletonCPP</Filter>
+    </ClCompile>
+    <ClCompile Include="EngineManager.cpp">
+      <Filter>Archivos de código fuente\Main&amp;MotorCPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp">
+      <Filter>Archivos de código fuente\Main&amp;MotorCPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Application.cpp">
+      <Filter>Archivos de código fuente\Main&amp;MotorCPP</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

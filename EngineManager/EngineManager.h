@@ -22,6 +22,7 @@ public:
 	~EngineManager();
 
 	void initEngine();
+	void initInstance();
 	void starUpManager();
 	void shutDownManager();
 };
