@@ -21,7 +21,7 @@ void Application::initEngine() {
 	engine.initEngine();
 	engine.starUpManager();
 	engine.initInstance();
-	//engine.shutDownManager();
+	engine.shutDownManager();
 }
 
 void Application::display() {

@@ -9,7 +9,7 @@ EngineManager::~EngineManager() {
 }
 
 void EngineManager::initEngine() {
-	puts("Engine Yamamoto\n");
+	puts("Engine\n");
 }
 
 void EngineManager::initInstance() {

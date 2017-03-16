@@ -1,31 +1,48 @@
 // Main.cpp: define el punto de entrada de la aplicación de consola.
-
 #include "stdafx.h"
 #include <vector>
 #include <stdio.h>
-#include "EngineManager.h"
-#include "Application.h"
 
-Application app;
+#include "RenderManager.h"
+#include "PhysicsManager.h"
+#include "AnimationManager.h"
+#include "TextureManager.h"
+#include "VideoManager.h"
+#include "MemoryManager.h"
+#include "FileSystemManager.h"
 
-void setup() {
-	app.setup();
-}
+RenderManager render;
+PhysicsManager physics;
+AnimationManager animation;
+TextureManager texture;
+VideoManager video;
+MemoryManager memory;
+FileSystemManager fileSystem;
 
-void display() {
-	app.display();
-}
-
-void reshape(int w, int h) {
-	app.reshape(w, h);
-}
-
-int main(int argc, char *argv[]) {
-	
-}
+bool isExit;
 
 int main() {
-	app.initEngine();
+	render.starUp();
+	physics.starUp();
+	animation.starUp();
+	texture.starUp();
+	video.starUp();
+	memory.starUp();
+	fileSystem.starUp();
+
+	isExit = true;
+
+	while (!isExit) {
+
+	}
+
+	render.shutDown();
+	physics.shutDown();
+	animation.shutDown();
+	texture.shutDown();
+	video.shutDown();
+	memory.shutDown();
+	fileSystem.shutDown();
 
 	getchar();
     return 0;

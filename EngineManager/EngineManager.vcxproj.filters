@@ -28,8 +28,11 @@
     <Filter Include="Archivos de código fuente\Main&amp;MotorCPP">
       <UniqueIdentifier>{a655d6a2-d549-4833-ab13-9f17755e4390}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Archivos de encabezado\Main&amp;MotorH">
-      <UniqueIdentifier>{a2e00577-c4b9-4e75-9e9c-13076c6577da}</UniqueIdentifier>
+    <Filter Include="Archivos de encabezado\ClasesH">
+      <UniqueIdentifier>{fdeaf6c1-cb1b-4d61-a249-0f09c3725b34}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de código fuente\ClasesCPP">
+      <UniqueIdentifier>{8da936d0-d5b5-46ac-b15c-a485aa651365}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -75,11 +78,23 @@
     <ClInclude Include="XONE.h">
       <Filter>Archivos de encabezado\SingletonH</Filter>
     </ClInclude>
-    <ClInclude Include="EngineManager.h">
-      <Filter>Archivos de encabezado\Main&amp;MotorH</Filter>
+    <ClInclude Include="AI.h">
+      <Filter>Archivos de encabezado\ClasesH</Filter>
     </ClInclude>
-    <ClInclude Include="Application.h">
-      <Filter>Archivos de encabezado\Main&amp;MotorH</Filter>
+    <ClInclude Include="ResourceManager.h">
+      <Filter>Archivos de encabezado\ClasesH</Filter>
+    </ClInclude>
+    <ClInclude Include="EventManager.h">
+      <Filter>Archivos de encabezado\ClasesH</Filter>
+    </ClInclude>
+    <ClInclude Include="AudioManager.h">
+      <Filter>Archivos de encabezado\ClasesH</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneManager.h">
+      <Filter>Archivos de encabezado\ManagersH</Filter>
+    </ClInclude>
+    <ClInclude Include="InputManager.h">
+      <Filter>Archivos de encabezado\ManagersH</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
@@ -119,14 +134,26 @@
     <ClCompile Include="Filesystem.cpp">
       <Filter>Archivos de código fuente\SingletonCPP</Filter>
     </ClCompile>
-    <ClCompile Include="EngineManager.cpp">
-      <Filter>Archivos de código fuente\Main&amp;MotorCPP</Filter>
-    </ClCompile>
     <ClCompile Include="Main.cpp">
       <Filter>Archivos de código fuente\Main&amp;MotorCPP</Filter>
     </ClCompile>
-    <ClCompile Include="Application.cpp">
-      <Filter>Archivos de código fuente\Main&amp;MotorCPP</Filter>
+    <ClCompile Include="AI.cpp">
+      <Filter>Archivos de código fuente\ClasesCPP</Filter>
+    </ClCompile>
+    <ClCompile Include="ResourceManager.cpp">
+      <Filter>Archivos de código fuente\ClasesCPP</Filter>
+    </ClCompile>
+    <ClCompile Include="EventManager.cpp">
+      <Filter>Archivos de código fuente\ClasesCPP</Filter>
+    </ClCompile>
+    <ClCompile Include="AudioManager.cpp">
+      <Filter>Archivos de código fuente\ClasesCPP</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneManager.cpp">
+      <Filter>Archivos de código fuente\ManagersCPP</Filter>
+    </ClCompile>
+    <ClCompile Include="InputManager.cpp">
+      <Filter>Archivos de código fuente\ManagersCPP</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

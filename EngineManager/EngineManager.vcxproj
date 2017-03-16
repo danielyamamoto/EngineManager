@@ -145,16 +145,20 @@
     <Text Include="ReadMe.txt" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="AI.h" />
     <ClInclude Include="AnimationManager.h" />
-    <ClInclude Include="Application.h" />
-    <ClInclude Include="EngineManager.h" />
+    <ClInclude Include="AudioManager.h" />
+    <ClInclude Include="EventManager.h" />
     <ClInclude Include="Filesystem.h" />
     <ClInclude Include="FileSystemManager.h" />
+    <ClInclude Include="InputManager.h" />
     <ClInclude Include="MemoryManager.h" />
     <ClInclude Include="PhysicsManager.h" />
     <ClInclude Include="PS3.h" />
     <ClInclude Include="PS4.h" />
     <ClInclude Include="RenderManager.h" />
+    <ClInclude Include="ResourceManager.h" />
+    <ClInclude Include="SceneManager.h" />
     <ClInclude Include="stdafx.h" />
     <ClInclude Include="targetver.h" />
     <ClInclude Include="TextureManager.h" />
@@ -162,17 +166,21 @@
     <ClInclude Include="XONE.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="AI.cpp" />
     <ClCompile Include="AnimationManager.cpp" />
-    <ClCompile Include="Application.cpp" />
-    <ClCompile Include="EngineManager.cpp" />
+    <ClCompile Include="AudioManager.cpp" />
+    <ClCompile Include="EventManager.cpp" />
     <ClCompile Include="Filesystem.cpp" />
     <ClCompile Include="FileSystemManager.cpp" />
+    <ClCompile Include="InputManager.cpp" />
     <ClCompile Include="Main.cpp" />
     <ClCompile Include="MemoryManager.cpp" />
     <ClCompile Include="PhysicsManager.cpp" />
     <ClCompile Include="PS3.cpp" />
     <ClCompile Include="PS4.cpp" />
     <ClCompile Include="RenderManager.cpp" />
+    <ClCompile Include="ResourceManager.cpp" />
+    <ClCompile Include="SceneManager.cpp" />
     <ClCompile Include="stdafx.cpp" />
     <ClCompile Include="TextureManager.cpp" />
     <ClCompile Include="VideoManager.cpp" />
